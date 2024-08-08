@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+     margin: 0;
+}
+
+.container {
+    background-color:lavender;
+    padding: 20px;
+    align-items:left;
+    display: flex;
+    justify-content: space-between; 
+    margin: 100px 10px;
+    border: dotted;
+}
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form input {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    
+}

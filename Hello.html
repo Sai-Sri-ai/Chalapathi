@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Register Form</title>
+    <link rel="stylesheet" href="HelloC.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Login Form -->
+        <div class="form">
+            <h2><u>LOGIN FORM</u></h2><br/>
+            <form id="loginForm">
+                Enter Name:   <input type="text" placeholder="Username" required><br/>
+                 Enter Email: <input type="text" placeholder="email" required><br/>
+                Set Password: <input type="password" placeholder="Password" required><br/>
+                <button type="submit"class="log">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the default form submission
+            window.location.href = "HelloInfo.html"; // Redirect to welcome page
+        });
+    </script>
+</body>
+</html>
+
